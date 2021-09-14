@@ -17,7 +17,7 @@ We refer to the descriptions within those files for further details on how to ex
 Here a simple example to execute with Sage within the folder :
 
 #-- Example in Sage --#
-- ..: load("pass_encrypt.sage")
+- ..: load("regev_encrypt.sage")
 - ..: d,t,q=256,128,7681
 - ..: attack(d,t,q,"light")
 
